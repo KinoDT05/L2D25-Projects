@@ -1,0 +1,23 @@
+body {
+	background-color: #f9cb8b;
+}
+#YouGot {
+	color: #8b5542;
+	text-align: center;
+	margin-top: 0px;
+	font-size:637%;
+}
+#Result {
+	display: block;
+	width: 70%;
+	height: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -85px;
+}
+#Description {
+	color: #8b5542;
+	text-align: center;
+	margin-top: -20px;
+	font-size:162%;
+}
