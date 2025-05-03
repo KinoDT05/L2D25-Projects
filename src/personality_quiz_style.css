@@ -1,0 +1,59 @@
+body {
+	background-color: #f9cb8b;
+	padding-top: 5vmin;
+}
+
+#Div1_QuizBackground {
+	width: 1200px;
+	height: 650px;
+	background-color: #fff1e0;
+	border-radius: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px
+}
+#Div2_TextingBox {
+	width: 96%;
+	height: 65%;
+	background-color: white;
+	border-radius: 18px;
+	margin: auto;
+}
+#Question {
+	color: #8b5542;
+	text-align: center;
+	padding-top: 150px;
+	margin: auto 2rem auto 2rem;
+}
+#Div3_ChoiceBox {
+	width: 96%;
+	height: 31%;
+	background-color: #764b36;
+	border-radius: 18px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+.ChoiceButton {
+	width: 80%;
+	margin: auto;
+	font-size: 15px;
+	padding: 12px 12px;
+	border-radius: 18px;
+	background-color: #f9cb8b;
+	border: #f9cb8b;
+	color: #8b5542;
+}
+
+.BackBtn {
+	font-size: 15px;
+	padding: 12px 12px;
+	border-radius: 18px;
+	background-color: #8b5542;
+	border: #8b5542;
+	color: #f9cb8b;
+
+	display: block;
+	width: 10rem;
+	margin: 1rem auto 0 auto;
+}
