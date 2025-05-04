@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-primary: 'Cabin', sans-serif;
+  --color-bg: #f9f3e9;
+  --color-card: #fff;
+  --color-text: #4a2c2a;
+  --color-accent: #a94442;
+  --color-border: #d1bfa7;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.hero-card {
+  border: 1px solid var(--color-border);
+  background-color: var(--color-card);
+}
+.hero-card .card-title {
+  font-size: 2rem;
+  color: var(--color-accent);
+}
+.hero-card .text-muted {
+  font-style: italic;
+}
+
+.ingredient-badge {
+  font-size: 0.9rem;
+  background-color: var(--color-border);
+  color: var(--color-text);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+}
+
+.recipe-card {
+  border: 1px solid var(--color-border);
+  background-color: var(--color-card);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.recipe-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ratatouille-modal-header {
+  background-color: var(--color-accent);
+  color: var(--color-card);
+}
+.btn-close {
+  filter: invert(1);
+}
+
+.my-4 {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+.g-3 {
+  gap: 1rem !important;
+}
+
+.logo {
+  margin: 0 auto 1rem;
+  text-align: center;
+  position: relative;
+}
+.oval {
+  background: linear-gradient(to bottom, #2b47a3, #1b2b6d);
+  border: 5px solid #f4b400;
+  border-radius: 50%;
+  padding: 20px 60px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.logo-text {
+  font-family: Georgia, serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  margin: 0;
+}
+.logo-tagline {
+  font-size: 14px;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  margin: -5px;
+}
+
+.whiskers {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.whisker {
+  width: 40px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+}
+.whisker.left {
+  left: 185px;
+  top: -35px;
+  transform: rotate(15deg);
+}
+.whisker.right {
+  right: 141px;
+  top: -30px;
+  transform: rotate(-10deg);
+}
+.nose {
+  width: 15px;
+  height: 15px;
+  background-color: #f48b74;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(95%, -230%);
+}
+.chef-hat {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(90%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode {
+  --color-bg: #1e1e1e;
+  --color-card: #2a2a2a;
+  --color-text: #f0f0f0;
+  --color-accent: #e07a5f;
+  --color-border: #3a3a3a;
+}
