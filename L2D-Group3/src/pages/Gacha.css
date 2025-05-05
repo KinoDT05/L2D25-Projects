@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Daydream";
+  src: url("../assets/Font/Daydream.ttf") format("truetype");
+}
+
+body {
+  font-family: "Daydream", sans-serif;
+}
+
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.gachaTitle {
+  font-size: 55px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.cardRow {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.buttonRow {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gachaButton,
+.homeButton {
+  margin-left: 12px;
+  font-size: 24px;
+  color: #5b4015;
+  background-color: #19a63a;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}

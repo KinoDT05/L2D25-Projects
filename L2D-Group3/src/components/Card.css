@@ -1,0 +1,36 @@
+#top {
+  display: flex;
+  justify-content: space-around;
+}
+
+#stats {
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+}
+
+#attack {
+  display: grid;
+  grid-column: 1;
+}
+
+#defense {
+  display: grid;
+  grid-column: 3;
+}
+
+#goods {
+  display: flex;
+  justify-content: space-between;
+  row-gap: -4px;
+  flex-direction: column;
+}
+
+#stuff {
+  display: flex;
+  row-gap: 4px;
+  flex-direction: column;
+  margin-bottom: 30px;
+}

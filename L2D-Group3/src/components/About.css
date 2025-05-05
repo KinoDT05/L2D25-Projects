@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Daydream";
+  src: url("../assets/Font/Daydream.ttf") format("truetype");
+}
+
+.about {
+  background-color: #1b9437;
+  color: black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Daydream", sans-serif;
+  text-align: center;
+}
+.about-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.about-devs {
+  font-size: 15px;
+  list-style: none;
+}
