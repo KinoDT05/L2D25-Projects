@@ -5,7 +5,6 @@ export default function Footer() {
         <ul className="flex gap-x-9 *:text-sm mb-4 text-gray-500 font-medium">
           <li><a href="" className="hover:text-blue-500">Home</a></li>
           <li><a href="" className="hover:text-blue-500">Gacha</a></li>
-          <li><a href="" className="hover:text-blue-500">Gallery</a></li>
         </ul>
       </div>
       <div className="mb-3">

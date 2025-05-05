@@ -9,9 +9,6 @@ export default function Header() {
                         <Link to="/">Home</Link>
                     </li>
                     <li className="text-slate-700 hover:text-blue-500 active:text-lime-400">
-                        <Link to="/gallery">Gallery</Link>
-                    </li>
-                    <li className="text-slate-700 hover:text-blue-500 active:text-lime-400">
                         <Link to="/gacha">Gacha</Link>
                     </li>
                 </ul>
